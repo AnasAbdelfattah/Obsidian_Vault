@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"1af5fe6726163f2f","type":"text","text":"Starting ","x":-560,"y":-80,"width":185,"height":60},
+		{"id":"815956d6d4ea594b","type":"text","text":"4.Writing ","x":-232,"y":540,"width":212,"height":60,"color":"1"},
+		{"id":"7006bde83f42614a","type":"text","text":"1.Listening","x":-232,"y":-650,"width":212,"height":60,"color":"4"},
+		{"id":"4546a59f73fc245e","type":"text","text":"2.Reading  ","x":-232,"y":-220,"width":212,"height":60,"color":"1"},
+		{"id":"f9447b6198a00b8e","type":"text","text":"3.Speaking ","x":-232,"y":180,"width":212,"height":60,"color":"1"},
+		{"id":"2cfa629ae78356f2","type":"text","text":"Start: [[(Thursday) 14-3-2024]]","x":110,"y":-960,"width":450,"height":80,"color":"4"},
+		{"id":"0f276e5b624f5e0f","type":"text","text":"End: [[(Tuesday) 14-5-2024]]","x":720,"y":-960,"width":450,"height":80,"color":"1"},
+		{"id":"312533c30792c8c6","type":"text","text":"![[Resources#Listening]]\n","x":333,"y":-740,"width":775,"height":240,"color":"4"},
+		{"id":"8f858600e820b47d","type":"text","text":"2 hours/day","x":335,"y":-420,"width":250,"height":60,"color":"4"},
+		{"id":"2445dfb80a7e69b8","type":"text","text":"[How to Learn English(Roadmap Video)](https://www.youtube.com/watch?v=tLULIzOj-Ew&t=291s)","x":-1360,"y":-90,"width":610,"height":80,"color":"3"}
+	],
+	"edges":[
+		{"id":"a2ad97453d1c9ed6","fromNode":"1af5fe6726163f2f","fromSide":"right","toNode":"7006bde83f42614a","toSide":"left"},
+		{"id":"c2054ccb93f99853","fromNode":"1af5fe6726163f2f","fromSide":"right","toNode":"4546a59f73fc245e","toSide":"left"},
+		{"id":"57858ddb0ab4dfd9","fromNode":"1af5fe6726163f2f","fromSide":"right","toNode":"f9447b6198a00b8e","toSide":"left"},
+		{"id":"81ffdb5ece64f529","fromNode":"1af5fe6726163f2f","fromSide":"right","toNode":"815956d6d4ea594b","toSide":"left"},
+		{"id":"7ca9fc0eb10f62f9","fromNode":"2cfa629ae78356f2","fromSide":"right","toNode":"0f276e5b624f5e0f","toSide":"left"},
+		{"id":"67733d47ad825138","fromNode":"7006bde83f42614a","fromSide":"right","toNode":"2cfa629ae78356f2","toSide":"left","label":"Time"},
+		{"id":"79d1fc860f76eada","fromNode":"7006bde83f42614a","fromSide":"right","toNode":"312533c30792c8c6","toSide":"left","label":"Resources"},
+		{"id":"ed0048ff8798d432","fromNode":"7006bde83f42614a","fromSide":"right","toNode":"8f858600e820b47d","toSide":"left","label":"How Much"},
+		{"id":"19a15843841436b1","fromNode":"1af5fe6726163f2f","fromSide":"left","toNode":"2445dfb80a7e69b8","toSide":"right","color":"3"}
+	]
+}
